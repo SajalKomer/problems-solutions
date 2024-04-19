@@ -12,6 +12,7 @@ o/p - aaaa
 
 public class LongestUniformSubstring {
     static void longestSubstring(String inputString) {
+
         char[] arr1 = inputString.toCharArray();
         String long_str = null;
         int str_length = 0;

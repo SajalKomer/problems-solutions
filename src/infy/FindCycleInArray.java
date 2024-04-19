@@ -14,7 +14,8 @@ o/p-False
  */
 public class FindCycleInArray {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 3};
+//        int[] arr = {1, 2, 3, 4, 3};
+        int[] arr = {2,4,1,0,5,3 };
         //{2,4,1,0,5,3 }
         // {1,2,3,1}
         //{1,2,3,2};
