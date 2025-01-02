@@ -1,5 +1,9 @@
 package leetCode;
 
+/**
+ * Category: Two pointers
+ * Leetcode: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+ */
 public class TwoSumII {
     public int[] twoSum(int[] numbers, int target) {
         int[] result = new int[2];
