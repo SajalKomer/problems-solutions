@@ -1,5 +1,9 @@
 package leetCode;
 
+/**
+ * Category: Two pointers
+ * Leetcode: https://leetcode.com/problems/container-with-most-water/description/
+ */
 public class ContainerWithMostWater {
 
     public int maxArea(int [] height){
@@ -15,6 +19,16 @@ public class ContainerWithMostWater {
         }
         return max;
     }
+}
+/**
+ * Complexity Analysis:
+ * Time complexity: O(n). Single pass.
+ * Space complexity: O(1). Constant space is used.
+ */
+
+///////////////////////////////////////////////////////////////////////////////
+
+// Brute Force:
 
 //    public int maxArea(int [] height){
 //
@@ -28,4 +42,11 @@ public class ContainerWithMostWater {
 //
 //        return max;
 //    }
-}
+
+
+/**
+ * Brute force:
+ * Complexity Analysis:
+ * Time complexity: O(n^2). Calculating area for all n(n−1)/2 height pairs.
+ * Space complexity: O(1). Constant extra space is used.
+ */
